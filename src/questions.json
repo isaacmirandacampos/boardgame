@@ -1,0 +1,264 @@
+[
+  {
+    "dificulty": 1,
+    "questions": [
+      {
+        "question": "Normalmente, quantos litros de sangue uma pessoa tem?",
+        "one": "Com um tronco.",
+        "two": "Com dois paus.",
+        "three": "Depende do tamanho da canoa",
+        "four": "Com 25 paus"
+      },
+      {
+        "question": "Em que período da pré-história o fogo foi descoberto?",
+        "one": "Paleolítico",
+        "two": "Idade dos Metais",
+        "three": "Período da Pedra Polida",
+        "four": "Idade Média",
+        "true": "Paleolítico"
+      },
+      {
+        "question": "Qual das alternativas abaixo apenas contêm classes de palavras?",
+        "one": "Vogais, semivogais e consoantes",
+        "two": "Substantivo, verbo e preposição",
+        "three": "Fonologia, Morfologia e Sintaxe",
+        "four": "Hiatos, ditongos e tritongos",
+        "true": "Substantivo, verbo e preposição"
+      },
+      {
+        "question": "Qual a montanha mais alta do Brasil?",
+        "one": "Pico da Neblina",
+        "two": "Pico Paraná",
+        "three": "Monte Roraima",
+        "four": "Pico Maior de Friburgo",
+        "true": "Pico Paraná"
+      },
+      {
+        "question": "Qual a velocidade da luz?",
+        "one": "300 000 000 metros por segundo (m/s)",
+        "two": "150 000 000 metros por segundo (m/s)",
+        "three": "199 792 458 metros por segundo (m/s)",
+        "four": "299 792 458 metros por segundo (m/s)",
+        "true": "299 792 458 metros por segundo (m/s)"
+      },
+      {
+        "question": "Em qual local da Ásia o português é língua oficial?",
+        "one": "Índia",
+        "two": "Filipinas",
+        "three": "Moçambique",
+        "four": "Macau",
+        "true": "Macau"
+      },
+      {
+        "question": "'It is six twenty' ou 'twenty past six'. Que horas são em inglês?",
+        "one": "12:06",
+        "two": "2:20",
+        "three": "6:20",
+        "four": "6:02",
+        "true": "6:20"
+      },
+      {
+        "question": "Quem é o autor de “O Príncipe”?",
+        "one": "Maquiavel",
+        "two": "Antoine de Saint-Exupéry",
+        "three": "Montesquieu",
+        "four": "Thomas Hobbes",
+        "true": "Maquiavel"
+      },
+      {
+        "question": "Como é a conjugação do verbo caber na 1.ª pessoa do singular do presente do indicativo?",
+        "one": "Eu caibo",
+        "two": "Ele cabe",
+        "three": "Que eu caiba",
+        "four": "Eu cabo",
+        "true": "Eu caibo"
+      },
+      {
+        "question": "Quais destas construções famosas ficam nos Estados Unidos?",
+        "one": "Estátua da Liberdade, Golden Gate Bridge e Empire State Building",
+        "two": "Estátua da Liberdade, Big Ben e The High Line",
+        "three": "Angkor Wat, Taj Mahal e Skywalk no Grand Canyon",
+        "four": "Lincoln Memorial, Sidney Opera House e Burj Khalifa",
+        "true": "Estátua da Liberdade, Golden Gate Bridge e Empire State Building"
+      }
+    ]
+  },
+  {
+    "dificulty": 2,
+    "questions": [
+      {
+        "question": "O que a palavra legend significa em português?",
+        "one": "Legenda",
+        "two": "Conto",
+        "three": "História",
+        "four": "Lenda",
+        "true": "Lenda"
+      },
+      {
+        "question": "Qual o número mínimo de jogadores numa partida de futebol?",
+        "one": "8",
+        "two": "6",
+        "three": "5",
+        "four": "7",
+        "true": "7"
+      },
+      {
+        "question": "Quais os principais autores do Barroco no Brasil?",
+        "one": "Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira",
+        "two": "Miguel de Cervantes, Gregório de Matos e Danthe Alighieri",
+        "three": "Padre Antônio Vieira, Padre Manuel de Melo e Gregório de Matos",
+        "four": "Castro Alves, Bento Teixeira e Manuel Botelho de Oliveira",
+        "true": "Gregório de Matos, Bento Teixeira e Manuel Botelho de Oliveira"
+      },
+      {
+        "question": "Quais as duas datas que são comemoradas em novembro?",
+        "one": "Proclamação da República e Dia Nacional da Consciência Negra",
+        "two": "Dia do Médico e Dia de São Lucas",
+        "three": "Dia de Finados e Dia Nacional do Livro",
+        "four": "Black Friday e Dia da Árvore",
+        "true": "Proclamação da República e Dia Nacional da Consciência Negra"
+      },
+      {
+        "question": "Quem pintou 'Guernica'?",
+        "one": "Paul Cézanne",
+        "two": "Pablo Picasso",
+        "three": "Diego Rivera",
+        "four": "Tarsila do Amaral",
+        "true": "Pablo Picasso"
+      },
+      {
+        "question": "Quanto tempo a luz do Sol demora para chegar à Terra?",
+        "one": "12 minutos",
+        "two": "8 minutos",
+        "three": "segundos",
+        "four": "1 dia",
+        "true": "8 minutos"
+      },
+      {
+        "question": "Qual a tradução da frase “Fabiano cogió su saco antes de salir”?",
+        "one": "Fabiano coseu seu paletó antes de sair",
+        "two": "Fabiano fechou o saco antes de sair",
+        "three": "Fabiano pegou seu paletó antes de sair",
+        "four": "Fabiano cortou o saco antes de cair",
+        "true": "Fabiano pegou seu paletó antes de sair"
+      },
+      {
+        "question": "Qual a nacionalidade de Che Guevara?",
+        "one": "Cubana",
+        "two": "Panamenha",
+        "three": "Boliviana",
+        "four": "Argentina",
+        "true": "Argentina"
+      },
+      {
+        "question": "Qual a altura da rede de vôlei nos jogos masculino e feminino?",
+        "one": "2,4 para ambos",
+        "two": "2,5 m e 2,0 m",
+        "three": "1,8 m e 1,5 m",
+        "four": "2,43 m e 2,24 m",
+        "true": "2,43 m e 2,24 m"
+      },
+      {
+        "question": "Em que ordem surgiram os modelos atômicos?",
+        "one": "Dalton, Thomson, Rutherford, Rutherford-Bohr",
+        "two": "Thomson, Dalton, Rutherford, Rutherford-Bohr",
+        "three": "Dalton, Rutherford-Bohr, Thomson, Rutherford",
+        "four": "Dalton, Thomson, Rutherford-Bohr, Rutherford",
+        "true": "Dalton, Thomson, Rutherford, Rutherford-Bohr"
+      },
+      {
+        "question": "Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?",
+        "one": "Caipora",
+        "two": "Saci",
+        "three": "Lobisomem",
+        "four": "Boitatá",
+        "true": "Caipora"
+      }
+    ]
+  },
+  {
+    "dificulty": 3,
+    "questions": [
+      {
+        "question": "Normalmente, quantos litros de sangue uma pessoa tem?",
+        "one": "Tem entre 2 a 4 litros.",
+        "two": "Tem entre 4 a 6 litros.",
+        "three": "Tem 10 litros.",
+        "four": "Tem 7 litros",
+        "true": "Tem entre 4 a 6 litros."
+      },
+      {
+        "question": "Em média, quantos são retirados numa doação de sangue?",
+        "one": "São retirados 450 mililitros",
+        "two": "São retirados 500 mililitros",
+        "three": "São retirados 2 litros",
+        "four": "São retirados 1,5 litros",
+        "true": "São retirados 450 mililitros"
+      },
+      {
+        "question": "De quem é a famosa frase “Penso, logo existo”?",
+        "one": "Platão.",
+        "two": "Galileu Galilei",
+        "three": "Sócrates",
+        "four": "Descartes",
+        "true": "Descartes"
+      },
+      {
+        "question": "De onde é a invenção do chuveiro elétrico?",
+        "one": "França",
+        "two": "Inglaterra",
+        "three": "Brasil",
+        "four": "Austrália",
+        "true": "Brasil"
+      },
+      {
+        "question": "Quais o menor e o maior país do mundo?",
+        "one": "Vaticano e Rússia",
+        "two": "Nauru e China",
+        "three": "Mônaco e Canadá",
+        "four": "São Marino e Índia",
+        "true": "Vaticano e Rússia"
+      },
+      {
+        "question": "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
+        "one": "Jânio Quadros",
+        "two": "Jacinto Anjos",
+        "three": "Getúlio Vargas",
+        "four": "João Goulart",
+        "true": "João Goulart"
+      },
+      {
+        "question": "Qual o grupo em que todas as palavras foram escritas corretamente?",
+        "one": "Asterístico, beneficiente, meteorologia, entertido",
+        "two": "Asterisco, beneficente, meteorologia, entretido",
+        "three": "Asterisco, beneficente, metereologia, entretido",
+        "four": "Asterístico, beneficiente, metereologia, entretido",
+        "true": "Asterisco, beneficente, meteorologia, entretido"
+      },
+      {
+        "question": "Qual o livro mais vendido no mundo a seguir à Bíblia?",
+        "one": "O Senhor dos Anéis",
+        "two": "Dom Quixote",
+        "three": "O Pequeno Príncipe",
+        "four": "Harry Potter e a Pedra Filosofal",
+        "true": "Dom Quixote"
+      },
+      {
+        "question": "Qual o livro mais vendido no mundo a seguir à Bíblia?",
+        "one": "Duas",
+        "two": "Centenas",
+        "three": "Infinitas",
+        "four": "Vinte",
+        "true": "Infinitas"
+      },
+      {
+        "question": "Atualmente, quantos elementos químicos a tabela periódica possui?",
+        "one": "118",
+        "two": "108",
+        "three": "109",
+        "four": "113",
+        "true": "118"
+      }
+    ]
+  }
+]
