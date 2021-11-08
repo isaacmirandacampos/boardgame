@@ -1,29 +1,50 @@
 import styles from './Questions.module.css'
 import questions from '../../questions.json'
 import { toast } from 'react-toastify';
+import { useEffect, useState } from 'react';
 interface QuestionsParams {
   values: {
     dificulty: number;
     choosed: boolean;
     score: number;
+    attempt: number;
   }
   setValues: React.Dispatch<React.SetStateAction<{
     dificulty: number;
     choosed: boolean;
     score: number;
+    attempt: number;
 }>>
 }
 
 function Questions({ values, setValues }: QuestionsParams) {
-  const question = Math.floor(Math.random() * 10)
+  const [question] = useState(Math.floor(Math.random() * 10)) 
+
+  useEffect(()=>{
+    if(values.dificulty === values.attempt) {
+      alert(`Número de tentativas excedido, a resposta verdadeira era: ${questions[values.dificulty - 1].questions[question].true}`)
+      setValues({...values, choosed: false, attempt: 0 })
+    } 
+  }, [values.attempt])
 
   const selectOption = (select:'one' |'two' | 'three' | 'four') => {
     if(questions[values.dificulty - 1].questions[question][select] === questions[values.dificulty - 1].questions[question].true) {
-       setValues({...values, choosed: false, score: values.score + values.dificulty })
+       setValues({
+         ...values,
+         choosed: false,
+         attempt: 0,
+         score: values.dificulty !== 1 ? 
+                values.score + (values.dificulty - values.attempt) : 
+                values.score + 1 })
        toast.success('Resposta certa')
     } else {
-      toast.error('Resposta errada')
-      setValues({...values, choosed: false })
+      if(values.dificulty === 1) {
+        alert(`Resposta errada, a verdadeira é: ${questions[values.dificulty - 1].questions[question].true}`)
+        setValues({...values, choosed: false, attempt: 0 })
+      } else {
+        setValues({...values, choosed: true, attempt: values.attempt + 1 })
+        toast.warn(`Você errou, você tem ${values.dificulty - (values.attempt + 1)} tentativas`)
+      }
     }
   }
 

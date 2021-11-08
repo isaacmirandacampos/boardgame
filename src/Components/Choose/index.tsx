@@ -5,11 +5,13 @@ interface ChooseParams {
     dificulty: number;
     score: number;
     choosed: boolean;
+    attempt: number;
   }>>;
   values: {
     dificulty: number;
     score: number;
     choosed: boolean;
+    attempt: number;
   }
 }
 

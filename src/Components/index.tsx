@@ -7,14 +7,14 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 
 function Gameboard() {
-  const [values, setValues] = useState({ dificulty: 0, choosed: false, score: 20 })
+  const [values, setValues] = useState({ dificulty: 0, choosed: false, score: 1, attempt: 0 })
 
   useEffect(()=>{
     if(values.score >= 25) {
       alert("Você ganhou, parabéns");
-      setValues({ dificulty: 0, choosed: false, score: 0 })
+      setValues({ dificulty: 0, choosed: false, score: 1, attempt: 0 })
     }
-  },[values.score])
+  }, [values.score])
 
   return (
     <div className={styles.container}>
